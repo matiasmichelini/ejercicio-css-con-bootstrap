@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HOME / Sunlens Service</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+
+        <!--Primero el móvil, no tender a hacer zoom, sino levantar a escala natural siempre y cuando haya
+        sido pensado como un sitio responsive, y anular el comportamiento de ajustar a los límites del dispositivo
+        el contenido, cuando este sobresalga-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- CSS -->
+        <!--Bootstrap CSS-->
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <!--fuentes-->
+        <link href="font-face/stylesheet.css" rel="stylesheet" type="text/css"/>
+        <!--CSS Propio-->
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+
+        <!-- JavaScript -->
+        <!-- jQuery, Popper.js + Bootstrap JS o Boostrap con Popper inc. -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <!--<script src="js/popper.min.js"></script>-->
+        <!--<script src="js/bootstrap.js"></script>-->
+        <script src="js/bootstrap.bundle.js"></script>
+    </head>
+    <body> 
+
+        <div class="container-fluid">
+            <div class="row">
+                <!--CABEZAL-->
+                <header class="col-md-3 order-md-last order-lg-first">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="Logo Sunlens Service. Workshop, replacement, upgrade.">
+                    </a>
+                </header>
+                <!--LOGO-->
+                <nav class="col-md-9 order-md-first order-lg-last">
+                    <ul class="nav nav-pills nav-justified">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="producto.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MULTIMEDIA</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PROCESO</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!--FRANJA 1-->
+        <div id="franja1_Producto" class="container-fluid">
+        </div>
+        <!--FRANJA 2-->
+        <section class="container-fluid" id="franja2_Producto">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>
+
+                            Encontranos en las diferentes ferias de verano!
+                        </h1>
+                    </div>
+                    <div class="col-md-6">
+                        <table>
+                            <caption>
+                                (*) Se suspende por lluvia
+                            </caption>
+                            <tr>
+                                <th>
+                                    fecha
+                                </th>
+                                <th>
+                                    lugar
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    domingo (*)
+                                </td>
+                                <td>
+                                    atlántida
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    lunes
+                                </td>
+                                <td>
+                                    tomamos un descansito!
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    martes y jueves
+                                </td>
+                                <td>
+                                    parque rodó
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    miércoles (*)
+                                </td>
+                                <td>
+                                    parque batlle
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    viernes
+                                </td>
+                                <td>
+                                    buceo
+                                </td>
+                            </tr> 
+                            <tr>
+                                <td>
+                                    sábado
+                                </td>
+                                <td>
+                                    villa biarritz
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--FRANJA 3-->
+        <div id="franja3_Producto">
+        </div>
+        <!--FRANJA 4-->
+        <div id="franja4_Producto" class="container d-none d-lg-block">
+            <div class="row justify-content-between">
+                <h1 class="col-lg-12 col-xl-2">
+                    Paso a paso
+                </h1>
+                <figure class="col-lg-2">
+                    <img src="img/12.jpg" alt="Cabina en un feria" class="img-fluid">
+                </figure>
+                <figure class="col-lg-2">
+                    <img src="img/13.jpg" alt="Cabina en un feria" class="img-fluid">
+                </figure>
+                <figure class="col-lg-2">
+                    <img src="img/14.jpg" alt="Cabina en un feria" class="img-fluid">
+                </figure>
+                <figure class="col-lg-2">
+                    <img src="img/15.jpg" alt="Cabina en un feria" class="img-fluid">
+                </figure>
+                <figure class="col-lg-2">
+                    <img src="img/16.jpg" alt="Cabina en un feria" class="img-fluid">
+                </figure>
+            </div>
+        </div>
+        <!--FRANJA 5-->
+        <section id="franja5_Inicio">
+            <div class="container">
+                <div class="row">
+                    <form action="" method="post" class="col-md-8">
+                        <h1>
+                            Contanos!
+                        </h1>
+                        <p>
+                            (*)  Campos obligatorios
+                        </p>
+                        <label for="nombre">Nombre (*)</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <label for="mailcito">Mail</label>
+                        <input type="email" id="mailcito" name="mailcito">
+                        <fieldset>
+                            <legend>Feria preferida</legend>
+                            <input type="radio" id="op1" name="obli" checked="checked" value="1">
+                            <label for="op1" class="especial">Parque Batlle</label>
+                            <input type="radio" id="op2" name="obli" value="B">
+                            <label for="op2" class="especial">Parque Rodó</label>
+                            <input type="radio" id="op3" name="obli" value="hola">
+                            <label for="op3" class="especial">Buceo</label>
+                        </fieldset>
+                        <input type="checkbox"  id="acepto" name="acepto">
+                        <label for="acepto" class="especial">Quiero que me envíen novedades</label>
+                        <label for="comentarios"> Comentarios </label>
+                        <textarea id="comentarios" name="comentarios"  rows="3"></textarea>
+                        <input type="submit"  value="Inscribirme">
+                    </form>
+                    <div class="col-md-4 adorno d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <a href="http://facebook.com"><img src="img/fb.png" alt="Ícono Facebook"/></a>
+            <a href="http://twitter.com"><img src="img/tw.png" alt="Ícono Twitter"/></a>
+            <a href="http://google+.com"><img src="img/google.png" alt="Ícono Google+"/></a>
+        </footer>
+    </body>
+</html>
